@@ -32,6 +32,8 @@
                 hover:bg-light-white
             ">
                         <img src="../assets/Folder.png" :class="!open ? '' : ''" />
+                        <!-- <img src="../assets/Folder.png" :class="!open ? '' : ''" /> -->
+                        <!-- <img src="../assets/Folder.png" :class="!open ? '' : ''" /> -->
 
                         <span :class="!open ? 'hidden' : ''" class="origin-left duration-200">{{ menu.title }}</span>
                     </li>
