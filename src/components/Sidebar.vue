@@ -32,6 +32,8 @@
                 hover:bg-light-white
             ">
                         <img src="../assets/Folder.png" :class="!open ? '' : ''" />
+
+                        <!-- image not working in loop -->
                         <!-- <img src="../assets/Folder.png" :class="!open ? '' : ''" /> -->
                         <!-- <img src="../assets/Folder.png" :class="!open ? '' : ''" /> -->
 
